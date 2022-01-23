@@ -26,7 +26,7 @@ export const DogContainer = forwardRef(({ children }, ref) => (
   </Box>
 ))
 
-DogContainer.displayName = 'Al Pandis - Homepage'
+DogContainer.displayName = 'Al Pandis'
 const Loader = () => {
   return (
     <DogContainer>
