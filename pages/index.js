@@ -1,4 +1,4 @@
-import NextLink from "next/link";
+import NextLink from 'next/link'
 import {
   Link,
   Container,
@@ -10,17 +10,17 @@ import {
   List,
   ListItem,
   Icon,
-  useColorModeValue,
-} from "@chakra-ui/react";
-import { ChevronRightIcon } from "@chakra-ui/icons";
-import Paragraph from "../components/paragraph";
-import { BioSection, BioYear } from "../components/bio";
-import Layout from "../components/layouts/article";
-import Section from "../components/section";
-import { GridItem } from "../components/grid-item";
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from "react-icons/io5";
-import thumbYouTube from "../public/images/links/youtube.png";
-import thumbInkdrop from "../public/images/works/inkdrop_eyecatch.png";
+  useColorModeValue
+} from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
+import Layout from '../components/layouts/article'
+import Section from '../components/section'
+import { GridItem } from '../components/grid-item'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import thumbYouTube from '../public/images/links/youtube.png'
+import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 
 const Home = () => (
   <Layout>
@@ -30,12 +30,12 @@ const Home = () => (
         mb={6}
         p={3}
         textAlign="center"
-        bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
         Hello, I&apos;m a full-stack developer based in Philippines!
       </Box>
 
-      <Box display={{ md: "flex" }}>
+      <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Al Pandis
@@ -156,7 +156,7 @@ const Home = () => (
         </List>
 
         <Box align="center" my={4}>
-          <NextLink href="/posts">
+          <NextLink href="/post">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Popular posts
             </Button>
@@ -165,6 +165,6 @@ const Home = () => (
       </Section>
     </Container>
   </Layout>
-);
+)
 
-export default Home;
+export default Home
