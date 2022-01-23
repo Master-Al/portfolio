@@ -16,8 +16,12 @@
 /build
 
 # misc
-.DS_Store
-*.pem
+node_modules
+.next
+dist
+.vercel
+.env
+
 
 # debug
 npm-debug.log*
