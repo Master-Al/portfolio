@@ -11,7 +11,6 @@ export const DogSpinner = () => (
     mt="calc(0px - var(--spinner-size))"
   />
 );
-
 export const DogContainer = forwardRef(({ children }, ref) => (
   <Box
     ref={ref}
@@ -26,7 +25,6 @@ export const DogContainer = forwardRef(({ children }, ref) => (
     {children}
   </Box>
 ));
-
 const Loader = () => {
   return (
     <DogContainer>
@@ -34,5 +32,4 @@ const Loader = () => {
     </DogContainer>
   );
 };
-
 export default Loader;
