@@ -73,7 +73,7 @@ const Home = () => (
           hanging out with his friends and play mobile games.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works">
+          <NextLink href="/work">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
