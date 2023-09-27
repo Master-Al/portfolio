@@ -132,7 +132,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/Fafa_Al22" target="_blank">
+            <Link href="https://twitter.com" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
