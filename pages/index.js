@@ -75,7 +75,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="/work">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              My works
             </Button>
           </NextLink>
         </Box>
@@ -158,7 +158,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="/post">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
+              Popular repository
             </Button>
           </NextLink>
         </Box>
