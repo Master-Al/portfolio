@@ -73,7 +73,7 @@ const Home = () => (
           hanging out with his friends and play mobile games.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/work">
+          <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My works
             </Button>
@@ -104,7 +104,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021 to present</BioYear>
-          Accenture (as Application Developer Senior Analyst)
+          Accenture (as Software Engineering Specialist)
         </BioSection>
       </Section>
 
@@ -155,13 +155,13 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <Box align="center" my={4}>
+        {/* <Box align="center" my={4}>
           <NextLink href="/post">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Popular repository
             </Button>
           </NextLink>
-        </Box>
+        </Box> */}
       </Section>
     </Container>
   </Layout>
